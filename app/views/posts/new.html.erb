@@ -1,0 +1,22 @@
+<h1>Add a new blog post!</h1>
+
+<%= form_for @post do |f| %>
+
+<div>
+	
+	<%= f.label :title, "Tilte:" %>
+	<%= f.text_field :title %>
+
+</div>
+
+<div>
+	
+	
+	<%= f.text_area :body %>
+
+</div>
+
+<%= f.submit "Add this blog post!" %>
+
+<% end %>
+

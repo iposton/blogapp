@@ -1,0 +1,55 @@
+<header>
+	
+	<h1><%= @post.title %></h1>
+	<h5>Posted on <%= @post.date_published %></h5>
+
+</header>
+
+<article>
+
+	<p><%= @post.body %></p>
+
+</article>
+
+<section>
+    <h3>Comments</h3>
+    <div>
+    <!-- .each loop interating through comments -->
+        <% @post.comments.each do |comment| %>        
+            <div>
+                <p><%= comment.body %> -- <%= comment.commenter.try(:name) %> (added: <%= comment.date_added %>)</p>
+            </div>
+        <% end %>
+    </div>
+</section>
+
+<section>
+	
+	<h3>Add a new comment</h3>
+	<%= form_for [@post, @comment] do |f| %>
+
+	   <%= f.fields_for :commenter_attributes do |c| %>
+
+	   <div>
+	   	  <%= c.label :name %>
+	   	  <%= c.text_field :name %>
+	   </div>
+
+	    <div>
+	   	  <%= c.label :email %>
+	   	  <%= c.text_field :email %>
+	   </div>
+
+	   <% end %>
+
+	<div>
+		
+		<%= f.label :body, "Comment:" %>
+		<%= f.text_area :body %>
+	</div>
+
+	<%= f.submit "Add a comment!" %>
+
+	<% end %>
+
+</section>
