@@ -2116,3 +2116,185 @@ Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:16 -0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-05 15:55:16 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 00:13:57 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/ianposton/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 21ms (Views: 9.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2015-03-12 00:14:06 -0700
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8990ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.6590ms
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 2176ms (Views: 2161.6ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-03-12 00:14:08 -0700
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2015-03-12 00:14:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 00:14:08 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-03-12 00:14:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9240ms
+  Rendered posts/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 133ms (Views: 126.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3660ms
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 192ms (Views: 191.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 00:15:09 -0700
+
+
+Started GET "/posts/54aaead649414e0479000000" for 127.0.0.1 at 2015-03-12 00:15:14 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"54aaead649414e0479000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={"_id"=>BSON::ObjectId('54aaead649414e0479000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9840ms
+  Rendered posts/show.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 154ms (Views: 146.8ms)
+
+
+Started POST "/posts/54aaead649414e0479000000/comments" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oosvHOauj1c9Sz4qk1YAwL+H55PhvccE6vOEzDjuIc8=", "comment"=>{"commenter_attributes"=>{"name"=>"Ian", "email"=>"ian@poston.com"}, "body"=>"Still doing it"}, "commit"=>"Add a comment!", "post_id"=>"54aaead649414e0479000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={"_id"=>BSON::ObjectId('54aaead649414e0479000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6840ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=blog1_development collection=posts selector={"_id"=>BSON::ObjectId('54aaead649414e0479000000')} update={"$push"=>{"comments"=>{"_id"=>BSON::ObjectId('55013d4049414e6ba8000000'), "body"=>"Still doing it", "updated_at"=>2015-03-12 07:16:16 UTC, "created_at"=>2015-03-12 07:16:16 UTC, "commenter"=>{"_id"=>BSON::ObjectId('55013d4049414e6ba8010000'), "name"=>"Ian", "email"=>"ian@poston.com"}}}} flags=[]
+                         COMMAND      database=blog1_development command={:getlasterror=>1, :w=>1} runtime: 7.4580ms
+Redirected to http://localhost:3000/posts/54aaead649414e0479000000
+Completed 302 Found in 20ms
+
+
+Started GET "/posts/54aaead649414e0479000000" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"54aaead649414e0479000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={"_id"=>BSON::ObjectId('54aaead649414e0479000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4260ms
+  Rendered posts/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 111ms (Views: 109.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-03-12 00:16:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-12 00:16:44 -0700
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5940ms
+  Rendered posts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 118ms (Views: 117.0ms)
+
+
+Started GET "/posts/54ab15b849414e0735000000" for 127.0.0.1 at 2015-03-12 00:16:47 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"54ab15b849414e0735000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={"_id"=>BSON::ObjectId('54ab15b849414e0735000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4320ms
+  Rendered posts/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 100ms (Views: 98.6ms)
+
+
+Started GET "/posts/54aaead649414e0479000000" for 127.0.0.1 at 2015-03-12 00:17:00 -0700
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"54aaead649414e0479000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=blog1_development collection=posts selector={"_id"=>BSON::ObjectId('54aaead649414e0479000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4920ms
+  Rendered posts/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 111ms (Views: 109.6ms)
