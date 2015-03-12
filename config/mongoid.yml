@@ -67,8 +67,8 @@ test:
         # low amounts for fast failures.
         max_retries: 1
         retry_interval: 0
-
-        # mongoid 4.x
+        
+# mongoid 4.x
 #
 production:
  sessions:
